@@ -10,7 +10,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HEV_Agent_V2</RootNamespace>
-    <AssemblyName>HEV_IMEI_AGENT</AssemblyName>
+    <AssemblyName>HEV_IMEI_AGENT_1.1</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PublishUrl>publish\</PublishUrl>

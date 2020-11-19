@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition2 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAgentScrew));
             this.telerikMetroBlueTheme1 = new Telerik.WinControls.Themes.TelerikMetroBlueTheme();
             this.radPageView1 = new Telerik.WinControls.UI.RadPageView();
@@ -106,7 +106,7 @@
             this.radPageViewPage1.ItemSize = new System.Drawing.SizeF(64F, 36F);
             this.radPageViewPage1.Location = new System.Drawing.Point(5, 42);
             this.radPageViewPage1.Name = "radPageViewPage1";
-            this.radPageViewPage1.Size = new System.Drawing.Size(809, 570);
+            this.radPageViewPage1.Size = new System.Drawing.Size(789, 427);
             this.radPageViewPage1.Text = "Home";
             // 
             // panel1
@@ -115,7 +115,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(809, 570);
+            this.panel1.Size = new System.Drawing.Size(789, 427);
             this.panel1.TabIndex = 0;
             // 
             // radGridView1
@@ -132,7 +132,7 @@
             this.radGridView1.MasterTemplate.AllowDragToGroup = false;
             this.radGridView1.MasterTemplate.AllowEditRow = false;
             this.radGridView1.MasterTemplate.EnableGrouping = false;
-            this.radGridView1.MasterTemplate.ViewDefinition = tableViewDefinition2;
+            this.radGridView1.MasterTemplate.ViewDefinition = tableViewDefinition1;
             this.radGridView1.Name = "radGridView1";
             this.radGridView1.ReadOnly = true;
             // 
@@ -140,7 +140,7 @@
             // 
             this.radGridView1.RootElement.FocusBorderColor = System.Drawing.Color.Black;
             this.radGridView1.ShowGroupPanel = false;
-            this.radGridView1.Size = new System.Drawing.Size(809, 570);
+            this.radGridView1.Size = new System.Drawing.Size(789, 427);
             this.radGridView1.TabIndex = 1;
             this.radGridView1.ThemeName = "VisualStudio2012Light";
             this.radGridView1.TitlePosition = Telerik.WinControls.Layouts.Dock.Left;
@@ -329,7 +329,7 @@
             // 
             // frmAgentScrew
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(799, 510);
             this.Controls.Add(this.radPageView1);

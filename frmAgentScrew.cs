@@ -503,7 +503,7 @@ namespace HEV_Agent_V2
 
                 TbMachine.Rows[0]["Note"] = txtNote.Text;
                 fileSystemWatcher1.Path = txtLogPath.Text;
-
+                txtPass.Clear();
 
 
                 // MessageBox.Show("Save OK, Vui lòng bật lại phần mềm để bắt đầu làm việc");
@@ -538,14 +538,10 @@ namespace HEV_Agent_V2
 
         private void fileSystemWatcher1_Changed(object sender, System.IO.FileSystemEventArgs e)
         {
-            if (e.Name.Contains("MonitoringLog")) { 
+            string d = "MonitoringLog"+DateTime.Now.ToString("MMdd")+".txt";
+            if (e.Name==d) {
 
-                //Xem là IMEI Hay Final
                 PhanTichImei(e.FullPath, e.Name);
-
-
-
-
             }
             else
             {
