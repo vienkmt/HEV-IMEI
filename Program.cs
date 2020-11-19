@@ -19,7 +19,7 @@ namespace HEV_Agent_V2
             Mutex m = new Mutex(true, "HEV_FI_AGENT", out createdNew);
             if (!createdNew)
             {
-                // myApp is already running...
+                // myApp is already running....
                 MessageBox.Show("Phần mềm đang chạy, vào Task Manger - Tìm HEV_IMEI_AGENT tắt trước đi đã");
                 //Application.Restart();
                 return;
